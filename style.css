@@ -1,0 +1,54 @@
+/* style.css */
+body {
+ background-color: #CCCCCC;
+  margin: 4 auto;
+}
+header {
+  background-color: #999999;
+  border-bottom: 15px solid #999999
+}
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: #242424;
+  font-family: 'Anton Regular', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+h2 {
+  color: #242424;
+  font-family: 'Anton ', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: Capitalize;
+}
+ p {
+  color: #171717;
+  font-family: 'Anton Regular', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+  text-align: center;
+ }
+ nav {
+  text-align: left;
+  color: #171717;
+ }
+/* psuedo classes for hypertext link */
+ a {
+color: black; 
+text-decoration: none;
+display: inline-block;
+margin-right: 10px;
+ }
+  a:visited {
+            color: black;
+  }
+  a:hover {
+            color: white; 
+   }
